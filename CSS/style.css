@@ -1,0 +1,146 @@
+/* Algemene opmaak voor de pagina's */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url('img/rocket_V2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1em;
+    font-weight: normal;
+    width: auto;
+    margin: 10 auto;
+}
+
+/* Menu stijl */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Hover- en actieve linkkleuren */
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+nav ul li a.active {
+    background-color: #28a745;
+}
+
+/* Box model: toepassen van padding, margin en border op index.html */
+p {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #ccc;
+}
+
+/* Link standaard status */
+a:link {
+    color: white;
+}
+
+/* Bezochte link */
+a:visited {
+    color: lightgray;
+}
+
+/* Hover effect */
+a:hover {
+    color: yellow;
+}
+
+/* Actieve link tijdens klikken */
+a:active {
+    color: red;
+}
+
+div {
+    font-family: verdana;
+    font-size: 150%;
+    width: auto;
+    border: 15px solid #007bff;
+    ;
+    padding: 50px;
+    margin: 20px;
+    background-color: transparent;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .container {
+        display: grid;
+        /* Enables grid layout */
+        grid-template-columns: 1fr;
+        /* Creates two equal-width columns */
+        gap: 5px;
+        /* Adds space between columns */
+        width: auto;
+        text-align: center;
+
+    }
+
+    .column {
+        padding: 5px;
+        /* Adds padding inside each column */
+    }
+
+    .column:nth-child(1) {
+        background-color: #f2f2f2;
+        width: auto;
+        height: auto;
+        text-align: center;
+        /* Light grey background for the first column */
+    }
+
+    .column:nth-child(2) {
+        background-color: #e6e6e6;
+        width: auto;
+        height: auto;
+        text-align: center;
+        /* Slightly darker grey 
+      background for the second column */
+    }    
+    .column:nth-child(3) {
+        background-color: #e6e6e6;
+        width: auto;
+        height: auto;
+        text-align: center;
+        /* Slightly darker grey 
+      background for the second column */
+    }
+    input[type=text] {
+        background-color: white;
+        background-image: url('img/catcall.jpg');
+        background-position: 20px 20px;
+        background-repeat: no-repeat;
+        padding-left: 15px;
+      }
+
+  
+
+
+
